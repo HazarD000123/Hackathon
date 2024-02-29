@@ -1,6 +1,4 @@
 # Build an app like thing where anyone can report a sick , injured , rabid or unneutered dog to bbmp or nearest vet hospital or ambulance.
-# Problem 1 : Email is not being sent unless i predefine it to "ryan.ghosh2008@gmail.com"
-# Solution : I need it to take whatever email is the user input, then make them input their own App password from google and then the email can be sent.
 
 import customtkinter
 from email.message import EmailMessage
@@ -80,8 +78,5 @@ app_pwd.pack(pady=0)
 
 button1 = customtkinter.CTkButton(master=frame, text="Login", command=login)
 button1.pack(pady=12, padx=10)
-
-#email_sender = str(entry1)
-#email_password = entry2
 
 root.mainloop()
